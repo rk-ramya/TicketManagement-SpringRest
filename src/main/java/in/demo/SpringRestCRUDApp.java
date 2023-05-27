@@ -1,12 +1,12 @@
-package in.ineuron;
+package in.demo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringRest01SimplePocApplication {
+public class SpringRestCRUDApp{
 	
 	public static void main(String[] args) {
-		SpringApplication.run(SpringRest01SimplePocApplication.class, args);
+		SpringApplication.run(SpringRestCRUDApp.class, args);
 	}
 }
